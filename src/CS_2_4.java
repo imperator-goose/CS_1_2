@@ -1,7 +1,7 @@
 public class CS_2_4 {
     public static int majorityElement(int[] nums) {
         int count = 0;
-        Integer candidate = null;
+        int candidate = 0;
 
         for (int num : nums) {
             if (count == 0) {
