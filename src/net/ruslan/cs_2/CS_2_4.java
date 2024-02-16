@@ -1,3 +1,5 @@
+package net.ruslan.cs_2;
+
 public class CS_2_4 {
     public static int majorityElement(int[] nums) {
         int count = 0;
@@ -24,8 +26,4 @@ public class CS_2_4 {
         return count > nums.length / 2 ? candidate : -1;
     }
 
-    public static void main(String[] args) {
-        int[] ss = {};
-        System.out.println(majorityElement(ss));
-    }
 }

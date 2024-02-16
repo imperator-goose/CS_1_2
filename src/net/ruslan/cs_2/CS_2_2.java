@@ -1,3 +1,5 @@
+package net.ruslan.cs_2;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,9 +10,6 @@ public class CS_2_2 {
         public static int win = rn.nextInt(100 - 1 + 1) + 1;
         public static Scanner scanner = new Scanner(System.in);;
 
-        public static void main(String[] args) {
-            check();
-        }
 
         public static void check() {
 

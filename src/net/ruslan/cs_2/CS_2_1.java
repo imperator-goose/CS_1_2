@@ -1,3 +1,5 @@
+package net.ruslan.cs_2;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
